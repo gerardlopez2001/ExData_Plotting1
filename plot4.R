@@ -1,3 +1,20 @@
+## plot4.R
+## Author: Gerard Lopez
+## Date: 2014-10-13
+## Class: JHBSPH - Exploratory Data Analysis
+## Project: 1
+
+### Create plot4.png from UC Irvine Machine Learning Repository Electric power consumption data (https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip)
+
+### Plot4.png will have 4 separate plots in one .png in a 2x2 configuration.
+
+### top left: graph will show global active power in Kilowatts Vs. time for 2 days
+
+### top right: graph will show voltage Vs. time for 2 days
+
+### bottom left: graph will show three lines for energy sub metering (1,2 & 3) Vs. time for 2 days
+
+### bottom right: graph will show global reactive power in Kilowatts Vs. time for 2 days
 
 png("plot4.png",width = 480, height = 480)
 

@@ -1,4 +1,13 @@
+## plot3.R
+## Author: Gerard Lopez
+## Date: 2014-10-13
+## Class: JHBSPH - Exploratory Data Analysis
+## Project: 1
 
+### Create plot3.png from UC Irvine Machine Learning Repository Electric power consumption data (https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip)
+
+
+### graph will show three lines for energy sub metering (1,2 & 3) Vs. day of the week
 png("plot3.png",width = 480, height = 480)
 
 with(PowerData, plot(DateTime, Sub_metering_1, type = "n", ylab = "Energy sub metering", xlab = ""))

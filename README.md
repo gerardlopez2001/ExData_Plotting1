@@ -1,10 +1,12 @@
-# exData_Plotting Project 1/2/2007
+# exData_Plotting Project 1
 
 Author: Gerard Lopez
 
 Date: 2014-10-13
 
 Class: JHBSPH - Exploratory Data Analysis
+
+Project: 1  
 
 
 ## Introduction
