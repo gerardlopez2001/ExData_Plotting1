@@ -16,6 +16,8 @@
 
 ### bottom right: graph will show global reactive power in Kilowatts Vs. time for 2 days
 
+source('getPowerData.R')
+
 png("plot4.png",width = 480, height = 480)
 
 #set 2 x 2 plots
@@ -35,6 +37,6 @@ with(PowerData, points(DateTime, Sub_metering_3, type = "l", col="blue"))
 legend("topright", lwd = 1, col=c("black", "red", "blue"), legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty="n")
 
 #bottom right
-with(PowerData, plot(DateTime, Global_reactive_power, type = "l", col="black", ylab = "Global_reactive_power", xlab = ""))
+with(PowerData, plot(DateTime, Global_reactive_power, type = "l", col="black", ylab = "Global_reactive_power", xlab = "datetime"))
 
 dev.off()

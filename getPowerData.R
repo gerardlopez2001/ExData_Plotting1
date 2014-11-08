@@ -14,7 +14,7 @@
 ## scripts to produce the plots.
 
 
-# setwd("~/School/JH/04 Exploratory Data PowerData/Projects/ExData_Plotting1/ExData_Plotting1")
+#setwd("~/School/JH/04 Exploratory Data Analysis/Projects/ExData_Plotting1/ExData_Plotting1")
 
 # check if file already exists, if not, download. if exists using existing copy
 if (!file.exists("household_power_consumption.txt")){
